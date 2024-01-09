@@ -66,7 +66,9 @@ def generate_launch_description():
     use_namespace = LaunchConfiguration('use_namespace')
     slam = LaunchConfiguration('slam')
 #    static_map_path = os.path.join(pkg_share, 'maps', 'warehouse_world/002/map.yaml')
-    static_map_path = os.path.join(pkg_share, 'maps', 'my_map20230330.yaml')
+#    static_map_path = os.path.join(pkg_share, 'maps', 'my_map20230330.yaml')
+    static_map_path = os.path.join(pkg_share, 'maps', 'f19.yaml')
+#    static_map_path = os.path.join(pkg_share, 'maps', 'my_map01.yaml')
     map_yaml_file = LaunchConfiguration('map') 
     nav2_params_path = os.path.join(pkg_share, 'params', 'nav2_params.yaml')
     params_file = LaunchConfiguration('params_file')
@@ -334,7 +336,7 @@ def generate_launch_description():
         #joint_state_publisher_gui_node,
 #        rsp,
         rsp_no_pub,
-        spawn_entity_cmd,
+#        spawn_entity_cmd,
 
         delayed_controller_manager,
         delayed_diff_drive_spawner,
