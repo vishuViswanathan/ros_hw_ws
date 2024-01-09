@@ -1,0 +1,8 @@
+[ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[ 57%] Built target fake_robot
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:134:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #arduino_
+  134 | #  [01;31m[Karduino_[m[K.setMotorValues(l_wheel_.cmd / l_wheel_.rads_per_count / cfg_.loop_rate, r_wheel_.cmd / r_wheel_.rads_per_count / cfg_.loop_rate);
+      |    [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

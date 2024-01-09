@@ -1,0 +1,4 @@
+Invoking command in '/home/vishu/ros_hw_ws/build/fl_robot_py': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/fl_robot_py -- -j8 -l8
+Invoked command in '/home/vishu/ros_hw_ws/build/fl_robot_py' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/fl_robot_py -- -j8 -l8
+Invoking command in '/home/vishu/ros_hw_ws/build/fl_robot_py': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/fl_robot_py
+Invoked command in '/home/vishu/ros_hw_ws/build/fl_robot_py' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/fl_robot_py

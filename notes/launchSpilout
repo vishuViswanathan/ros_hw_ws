@@ -1,0 +1,75 @@
+vishu@vishu-Lenovo:~/ros_hw_ws$ ros2 launch fl_robot_py launch_robot_hardware.launch.py slam:=True
+[INFO] [launch]: All log files can be found below /home/vishu/.ros/log/2023-09-24-19-26-17-705643-vishu-Lenovo-18066
+[INFO] [launch]: Default logging verbosity is set to INFO
+type(default_model_path) ====  <class 'pathlib.PosixPath'>
+type(str(default_model_path)) ====  <class 'str'>
+[INFO] [robot_state_publisher-1]: process started with pid [18068]
+[INFO] [spawn_entity.py-2]: process started with pid [18070]
+[robot_state_publisher-1] [WARN] [1695563777.958084044] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-1] [INFO] [1695563777.958145025] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1695563777.958176208] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1695563777.958180083] [robot_state_publisher]: got segment drivewhl_l_link
+[robot_state_publisher-1] [INFO] [1695563777.958183081] [robot_state_publisher]: got segment drivewhl_r_link
+[robot_state_publisher-1] [INFO] [1695563777.958185909] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-1] [INFO] [1695563777.958188562] [robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-1] [INFO] [1695563777.958191287] [robot_state_publisher]: got segment rear_caster
+[robot_state_publisher-1] [INFO] [1695563777.958194103] [robot_state_publisher]: got segment top_cover
+[spawn_entity.py-2] [INFO] [1695563778.182400353] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-2] [INFO] [1695563778.182625398] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-2] /opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/qos.py:307: UserWarning: DurabilityPolicy.RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL is deprecated. Use DurabilityPolicy.TRANSIENT_LOCAL instead.
+[spawn_entity.py-2]   warnings.warn(
+[spawn_entity.py-2] [INFO] [1695563778.183804434] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-2] [INFO] [1695563778.309301363] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-2] [INFO] [1695563778.309963922] [spawn_entity]: Waiting for service /spawn_entity
+[INFO] [ros2_control_node-3]: process started with pid [18117]
+[INFO] [spawner-4]: process started with pid [18119]
+[INFO] [spawner-5]: process started with pid [18121]
+[ros2_control_node-3] [INFO] [1695563782.397970720] [resource_manager]: Loading hardware 'RealRobot' 
+[ros2_control_node-3] [INFO] [1695563782.398391847] [resource_manager]: Initialize hardware 'RealRobot' 
+[ros2_control_node-3] [INFO] [1695563782.398509299] [DiffDriveArduino]: Configuring...
+[ros2_control_node-3] [INFO] [1695563782.398760861] [DiffDriveArduino]: Finished Configuration
+[ros2_control_node-3] [INFO] [1695563782.398767110] [resource_manager]: Successful initialization of hardware 'RealRobot'
+[ros2_control_node-3] terminate called after throwing an instance of 'std::runtime_error'
+[ros2_control_node-3]   what():  Wrong state or command interface configuration.
+[ros2_control_node-3] missing state interfaces:
+[ros2_control_node-3] ' left_wheel_joint/velocity '	' left_wheel_joint/position '	' right_wheel_joint/velocity '	' right_wheel_joint/position '	
+[ros2_control_node-3] missing command interfaces:
+[ros2_control_node-3] ' left_wheel_joint/velocity '	' right_wheel_joint/velocity '	
+[ros2_control_node-3] Stack trace (most recent call last):
+[ros2_control_node-3] #15   Object "", at 0xffffffffffffffff, in 
+[ros2_control_node-3] #14   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x564f12ef4d84, in 
+[ros2_control_node-3] #13   Source "../csu/libc-start.c", line 392, in __libc_start_main_impl [0x7f7849429e3f]
+[ros2_control_node-3] #12   Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x7f7849429d8f]
+[ros2_control_node-3] #11   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x564f12ef489e, in 
+[ros2_control_node-3] #10   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7f7849e38291, in controller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)
+[ros2_control_node-3] #9    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7f7849e37377, in controller_manager::ControllerManager::init_resource_manager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+[ros2_control_node-3] #8    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7f7849adafac, in hardware_interface::ResourceManager::load_urdf(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool)
+[ros2_control_node-3] #7    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7f7849ab7891, in 
+[ros2_control_node-3] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7f78498ae4d7, in __cxa_throw
+[ros2_control_node-3] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7f78498ae276, in std::terminate()
+[ros2_control_node-3] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7f78498ae20b, in 
+[ros2_control_node-3] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7f78498a2b9d, in 
+[ros2_control_node-3] #2    Source "./stdlib/abort.c", line 79, in abort [0x7f78494287f2]
+[ros2_control_node-3] #1    Source "../sysdeps/posix/raise.c", line 26, in raise [0x7f7849442475]
+[ros2_control_node-3] #0  | Source "./nptl/pthread_kill.c", line 89, in __pthread_kill_internal
+[ros2_control_node-3]     | Source "./nptl/pthread_kill.c", line 78, in __pthread_kill_implementation
+[ros2_control_node-3]       Source "./nptl/pthread_kill.c", line 44, in __pthread_kill [0x7f7849496a7c]
+[ros2_control_node-3] Aborted (Signal sent by tkill() 18117 1000)
+[ERROR] [ros2_control_node-3]: process has died [pid 18117, exit code -6, cmd '/opt/ros/humble/lib/controller_manager/ros2_control_node --ros-args --params-file /tmp/launch_params__i8bqjcj --params-file /home/vishu/ros_hw_ws/install/fl_robot_py/share/fl_robot_py/config/my_controllers.yaml'].
+[spawner-5] [INFO] [1695563784.589197104] [spawner_diff_cont]: Waiting for '/controller_manager' node to exist
+[spawner-4] [INFO] [1695563784.591872709] [spawner_joint_broad]: Waiting for '/controller_manager' node to exist
+[spawner-5] [INFO] [1695563786.602702604] [spawner_diff_cont]: Waiting for '/controller_manager' node to exist
+[spawner-4] [INFO] [1695563786.605312119] [spawner_joint_broad]: Waiting for '/controller_manager' node to exist
+[spawner-5] [INFO] [1695563788.616092032] [spawner_diff_cont]: Waiting for '/controller_manager' node to exist
+[spawner-4] [INFO] [1695563788.618993338] [spawner_joint_broad]: Waiting for '/controller_manager' node to exist
+[spawner-5] [INFO] [1695563790.628677345] [spawner_diff_cont]: Waiting for '/controller_manager' node to exist
+[spawner-4] [INFO] [1695563790.631356198] [spawner_joint_broad]: Waiting for '/controller_manager' node to exist
+[spawner-5] [ERROR] [1695563792.642773463] [spawner_diff_cont]: Controller manager not available
+[spawner-4] [ERROR] [1695563792.645451914] [spawner_joint_broad]: Controller manager not available
+[ERROR] [spawner-5]: process has died [pid 18121, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner diff_cont --ros-args'].
+[ERROR] [spawner-4]: process has died [pid 18119, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_broad --ros-args'].
+[spawn_entity.py-2] [ERROR] [1695563808.370943177] [spawn_entity]: Service %s/spawn_entity unavailable. Was Gazebo started with GazeboRosFactory?
+[spawn_entity.py-2] [ERROR] [1695563808.371624158] [spawn_entity]: Spawn service failed. Exiting.
+[ERROR] [spawn_entity.py-2]: process has died [pid 18070, exit code 1, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -entity mv_robot1 -topic robot_description -x 1.0 -y 0.5 -z 0.2 -Y -1.57 --ros-args'].
+
+

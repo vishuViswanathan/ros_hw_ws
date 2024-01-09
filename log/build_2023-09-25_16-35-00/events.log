@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000541] (-) JobUnselected: {'identifier': 'fl_robot_py'}
+[0.000580] (-) JobUnselected: {'identifier': 'serial'}
+[0.000878] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/vishu/ros_hw_ws/install/serial')])}
+[0.000902] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.014518] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.014893] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[0.015658] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vishu/ros_hw_ws/build/diffdrive_arduino', '--', '-j8', '-l8'], 'cwd': '/home/vishu/ros_hw_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vishu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_arduino/lib:/home/vishu/ros_hw_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vishu'), ('OLDPWD', '/home/vishu'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3691'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vishu/ros_hw_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vishu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vishu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vishu/mv_ros_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vishu/.local/bin:/home/vishu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vishu-Lenovo:@/tmp/.ICE-unix/3672,unix/vishu-Lenovo:/tmp/.ICE-unix/3672'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b46421a7_bd2e_4628_a498_8cc28f983635'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::di=36:ow=33'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/fl_robot_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vishu/ros_hw_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('EDITOR', 'nano -w'), ('CMAKE_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/opt/ros/humble')]), 'shell': False}
+[0.061113] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_arduino\x1b[0m\n'}
+[0.073104] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] Built target fake_robot\n'}
+[0.081554] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[0.099838] (-) TimerEvent: {}
+[0.200269] (-) TimerEvent: {}
+[0.300594] (-) TimerEvent: {}
+[0.400951] (-) TimerEvent: {}
+[0.501326] (-) TimerEvent: {}
+[0.601715] (-) TimerEvent: {}
+[0.702085] (-) TimerEvent: {}
+[0.802470] (-) TimerEvent: {}
+[0.902877] (-) TimerEvent: {}
+[1.003271] (-) TimerEvent: {}
+[1.103670] (-) TimerEvent: {}
+[1.204065] (-) TimerEvent: {}
+[1.304481] (-) TimerEvent: {}
+[1.404894] (-) TimerEvent: {}
+[1.505244] (-) TimerEvent: {}
+[1.605645] (-) TimerEvent: {}
+[1.706001] (-) TimerEvent: {}
+[1.806356] (-) TimerEvent: {}
+[1.906701] (-) TimerEvent: {}
+[2.007075] (-) TimerEvent: {}
+[2.107388] (-) TimerEvent: {}
+[2.207701] (-) TimerEvent: {}
+[2.308000] (-) TimerEvent: {}
+[2.327972] (diffdrive_arduino) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.328177] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.328243] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.328315] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.328373] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.328428] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.328483] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.328534] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.328586] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.328638] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.328691] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.328751] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:5\x1b[m\x1b[K,\n'}
+[2.328804] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1\x1b[m\x1b[K:\n'}
+[2.328857] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type DiffDriveArduino::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.328912] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:140:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.328971] (diffdrive_arduino) StderrLine: {'line': b'  140 |        \x1b[01;35m\x1b[K"WRITING l_wheel_.cmd \'%7.3f\', l_wheel_.cmd \'%7d\'."\x1b[m\x1b[K,\n'}
+[2.329024] (diffdrive_arduino) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.329077] (diffdrive_arduino) StderrLine: {'line': b'  141 |         l_wheel_.cmd, \x1b[32m\x1b[Kl_wheel_.cmd\x1b[m\x1b[K);\n'}
+[2.329128] (diffdrive_arduino) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.329180] (diffdrive_arduino) StderrLine: {'line': b'      |                                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.329230] (diffdrive_arduino) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[2.329282] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:140:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.329335] (diffdrive_arduino) StderrLine: {'line': b'  140 |        "WRITING l_wheel_.cmd \'%7.3f\', l_wheel_.cmd \'\x1b[01;36m\x1b[K%7d\x1b[m\x1b[K\'.",\n'}
+[2.329387] (diffdrive_arduino) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[2.329439] (diffdrive_arduino) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.329490] (diffdrive_arduino) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.329542] (diffdrive_arduino) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K%7f\x1b[m\x1b[K\n'}
+[2.408125] (-) TimerEvent: {}
+[2.508447] (-) TimerEvent: {}
+[2.608751] (-) TimerEvent: {}
+[2.709075] (-) TimerEvent: {}
+[2.809392] (-) TimerEvent: {}
+[2.909779] (-) TimerEvent: {}
+[3.010176] (-) TimerEvent: {}
+[3.110541] (-) TimerEvent: {}
+[3.210910] (-) TimerEvent: {}
+[3.311311] (-) TimerEvent: {}
+[3.353502] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[3.411507] (-) TimerEvent: {}
+[3.511844] (-) TimerEvent: {}
+[3.529268] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[3.539245] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[3.578627] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[3.590606] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vishu/ros_hw_ws/build/diffdrive_arduino'], 'cwd': '/home/vishu/ros_hw_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vishu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_arduino/lib:/home/vishu/ros_hw_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vishu'), ('OLDPWD', '/home/vishu'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3691'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vishu/ros_hw_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vishu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vishu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vishu/mv_ros_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vishu/.local/bin:/home/vishu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vishu-Lenovo:@/tmp/.ICE-unix/3672,unix/vishu-Lenovo:/tmp/.ICE-unix/3672'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b46421a7_bd2e_4628_a498_8cc28f983635'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::di=36:ow=33'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/fl_robot_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vishu/ros_hw_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('EDITOR', 'nano -w'), ('CMAKE_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/opt/ros/humble')]), 'shell': False}
+[3.597641] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.598471] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.598857] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml\n'}
+[3.599096] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml\n'}
+[3.599450] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[3.599648] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[3.600078] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[3.600334] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[3.600494] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[3.600663] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[3.600820] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[3.600976] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[3.601141] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[3.601302] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[3.601445] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[3.601594] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[3.601743] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[3.601903] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[3.602045] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[3.602188] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[3.602332] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[3.602474] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[3.610775] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[3.610988] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[3.611133] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.611268] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.611387] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[3.611517] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[3.611647] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[3.611902] (-) TimerEvent: {}
+[3.613062] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[3.676149] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[3.676875] (-) EventReactorShutdown: {}

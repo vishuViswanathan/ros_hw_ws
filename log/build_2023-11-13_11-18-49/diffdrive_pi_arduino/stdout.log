@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[ 42%] Built target fake_robot
+[ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libdiffdrive_pi_arduino.so[0m
+[100%] Built target diffdrive_pi_arduino
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino//robot_hardware.xml
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino//fake_robot_hardware.xml
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/lib/libdiffdrive_pi_arduino.so
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/lib/libfake_robot.so
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/controllers/robot_controller_example.yaml
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/fake_robot.launch.py
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/test_robot.launch.py
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/library_path.sh
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/library_path.dsv
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_pi_arduino
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_pi_arduino
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/ament_prefix_path.sh
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/path.sh
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/path.dsv
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.bash
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.sh
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.zsh
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.dsv
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/package.dsv
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/packages/diffdrive_pi_arduino
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_pi_arduino
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/diffdrive_pi_arduinoConfig.cmake
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/diffdrive_pi_arduinoConfig-version.cmake
+-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/package.xml

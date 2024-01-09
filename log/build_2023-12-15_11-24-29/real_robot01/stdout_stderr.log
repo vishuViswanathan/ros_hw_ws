@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//launch/launch_robot01.launch.py
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//launch/rsp_no_pub.launch.py
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//urdf/robot.urdf.xacro
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//urdf/robot_core.xacro
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//urdf/ros2_control.xacro
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//maps/F19.pgm
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//maps/f19.yaml
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/ament_index/resource_index/package_run_dependencies/real_robot01
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/ament_index/resource_index/parent_prefix_path/real_robot01
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/environment/path.sh
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/environment/path.dsv
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/local_setup.bash
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/local_setup.sh
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/local_setup.zsh
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/local_setup.dsv
+-- Symlinking: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/package.dsv
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/ament_index/resource_index/packages/real_robot01
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/cmake/real_robot01Config.cmake
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/cmake/real_robot01Config-version.cmake
+-- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/package.xml

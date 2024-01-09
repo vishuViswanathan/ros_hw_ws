@@ -1,0 +1,38 @@
+[0.046s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[0.107s] [ 42%] Built target fake_robot
+[0.111s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[1.999s] [ 71%] [32m[1mLinking CXX shared library libdiffdrive_pi_arduino.so[0m
+[2.175s] [100%] Built target diffdrive_pi_arduino
+[2.183s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '0': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8
+[2.212s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino
+[2.218s] -- Install configuration: ""
+[2.219s] -- Execute custom install script
+[2.219s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino//robot_hardware.xml
+[2.219s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino//fake_robot_hardware.xml
+[2.219s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/lib/libdiffdrive_pi_arduino.so
+[2.219s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/lib/libfake_robot.so
+[2.220s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/controllers/robot_controller_example.yaml
+[2.220s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/fake_robot.launch.py
+[2.220s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/test_robot.launch.py
+[2.220s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/library_path.sh
+[2.220s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/library_path.dsv
+[2.220s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_pi_arduino
+[2.220s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_pi_arduino
+[2.220s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/ament_prefix_path.sh
+[2.220s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/ament_prefix_path.dsv
+[2.221s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/path.sh
+[2.221s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/path.dsv
+[2.221s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.bash
+[2.221s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.sh
+[2.221s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.zsh
+[2.221s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.dsv
+[2.221s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/package.dsv
+[2.228s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/packages/diffdrive_pi_arduino
+[2.228s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_pi_arduino
+[2.228s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[2.228s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.228s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/diffdrive_pi_arduinoConfig.cmake
+[2.228s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/diffdrive_pi_arduinoConfig-version.cmake
+[2.228s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/package.xml
+[2.230s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '0': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino

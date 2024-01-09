@@ -1,0 +1,93 @@
+[0.053s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8
+[0.094s] [ 14%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[0.095s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o[0m
+[0.095s] [ 71%] Built target fake_robot
+[1.767s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.768s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:4[m[K:
+[1.768s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:[m[K In member function ‘[01m[Kvoid ArduinoComms::showMsg(const string&)[m[K’:
+[1.768s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:59:17:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[1.768s]    59 |     RCLCPP_INFO([01;31m[Klogger_[m[K, "$$$$$$$                                         $$$$$$$");
+[1.768s]       |                 [01;31m[K^~~~~~~[m[K
+[1.768s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:59:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.768s]    59 |     [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$$                                         $$$$$$$");
+[1.769s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.769s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.769s]    59 |     [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$$                                         $$$$$$$");
+[1.769s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.769s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:59:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.769s]    59 |     [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$$                                         $$$$$$$");
+[1.769s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.769s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.769s]    59 |     [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$$                                         $$$$$$$");
+[1.769s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.769s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:59:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.769s]    59 |     [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$$                                         $$$$$$$");
+[1.769s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.772s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:61:20:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[1.772s]    61 |        RCLCPP_INFO([01;31m[Klogger_[m[K, "$$$$$$                                      $$$$$$");
+[1.772s]       |                    [01;31m[K^~~~~~~[m[K
+[1.772s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:61:8:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.772s]    61 |        [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.772s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.772s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:61:8:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.773s]    61 |        [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.773s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.773s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:61:8:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.773s]    61 |        [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.773s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.773s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:61:8:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.773s]    61 |        [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.773s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.773s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:61:8:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.773s]    61 |        [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.773s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.777s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:62:17:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[1.777s]    62 |     RCLCPP_INFO([01;31m[Klogger_[m[K, msg.c_str());
+[1.777s]       |                 [01;31m[K^~~~~~~[m[K
+[1.777s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:62:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.777s]    62 |     [01;31m[KRCLCPP_INFO[m[K(logger_, msg.c_str());
+[1.777s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.777s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.778s]    62 |     [01;31m[KRCLCPP_INFO[m[K(logger_, msg.c_str());
+[1.778s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.778s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:62:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.778s]    62 |     [01;31m[KRCLCPP_INFO[m[K(logger_, msg.c_str());
+[1.778s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.778s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.778s]    62 |     [01;31m[KRCLCPP_INFO[m[K(logger_, msg.c_str());
+[1.778s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.778s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:62:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.778s]    62 |     [01;31m[KRCLCPP_INFO[m[K(logger_, msg.c_str());
+[1.778s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:64:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[1.782s]    64 |         RCLCPP_INFO([01;31m[Klogger_[m[K, "$$$$$$                                      $$$$$$");
+[1.782s]       |                     [01;31m[K^~~~~~~[m[K
+[1.782s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:64:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.782s]    64 |         [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.782s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.782s]    64 |         [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.782s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:64:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.782s]    64 |         [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.782s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.782s]    64 |         [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.783s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.783s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:64:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.783s]    64 |         [01;31m[KRCLCPP_INFO[m[K(logger_, "$$$$$$                                      $$$$$$");
+[1.783s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.123s] gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o] Error 1
+[2.123s] gmake[2]: *** Waiting for unfinished jobs....
+[2.557s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+[2.557s] gmake: *** [Makefile:146: all] Error 2
+[2.560s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '2': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8

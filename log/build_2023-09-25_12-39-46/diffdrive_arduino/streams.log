@@ -1,0 +1,122 @@
+[0.012s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_arduino -- -j8 -l8
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[0.052s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[0.054s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[1.702s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:37[m[K,
+[1.702s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.702s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:142[m[K:
+[1.702s] [01m[K/usr/include/c++/11/cstddef:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type DiffDriveArduino::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.702s] [01m[K/usr/include/c++/11/cstddef:52:8:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[1.702s]    52 | extern [01;31m[K"C++"[m[K
+[1.702s]       |        [01;31m[K^~~~~[m[K
+[1.703s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:50[m[K,
+[1.703s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.703s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:142[m[K:
+[1.703s] [01m[K/usr/include/console_bridge/console.h:82:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+[1.703s]    82 | [01;31m[Knamespace[m[K console_bridge
+[1.703s]       | [01;31m[K^~~~~~~~~[m[K
+[1.710s] In file included from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/fake_robot.cpp:1[m[K:
+[1.710s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:35:15:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_interface::return_type FakeRobot::read()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[1.710s]    35 |   return_type [01;31m[Kread[m[K() override;
+[1.710s]       |               [01;31m[K^~~~[m[K
+[1.710s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:37:15:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_interface::return_type FakeRobot::write()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[1.710s]    37 |   return_type [01;31m[Kwrite[m[K() override;
+[1.710s]       |               [01;31m[K^~~~~[m[K
+[1.712s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/fake_robot.cpp:13:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+[1.712s]    13 | [01;31m[KCallbackReturn[m[K FakeRobot::on_init(const hardware_interface::HardwareInfo & info)
+[1.712s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.713s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:56[m[K,
+[1.713s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[1.713s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.713s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:142[m[K:
+[1.713s] [01m[K/opt/ros/humble/include/class_loader/class_loader/exceptions.hpp:40:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+[1.713s]    40 | [01;31m[Knamespace[m[K class_loader
+[1.713s]       | [01;31m[K^~~~~~~~~[m[K
+[1.713s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[1.713s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[1.713s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.713s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:142[m[K:
+[1.713s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:43:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+[1.713s]    43 | [01;31m[Knamespace[m[K class_loader
+[1.714s]       | [01;31m[K^~~~~~~~~[m[K
+[1.714s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[1.714s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.714s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:142[m[K:
+[1.714s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:67:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+[1.714s]    67 | [01;31m[Knamespace[m[K class_loader
+[1.714s]       | [01;31m[K^~~~~~~~~[m[K
+[1.714s] In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.714s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:142[m[K:
+[1.714s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:59:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+[1.714s]    59 | [01;31m[Knamespace[m[K class_loader
+[1.714s]       | [01;31m[K^~~~~~~~~[m[K
+[1.714s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[1.714s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.715s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:142[m[K:
+[1.715s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:144:1:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+[1.715s]   144 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[1.715s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.715s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:50[m[K,
+[1.715s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.715s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:142[m[K:
+[1.715s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:[m[K In constructor ‘[01m[KDiffDriveArduino::write(const rclcpp::Time&, const rclcpp::Duration&)::ProxyExec0::ProxyExec0()[m[K’:
+[1.715s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:144:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kconsole_bridge[m[K’ has not been declared
+[1.715s]   144 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[1.715s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.715s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:144:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kconsole_bridge[m[K’ has not been declared
+[1.715s]   144 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[1.715s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.715s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[1.716s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.716s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:142[m[K:
+[1.716s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:144:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass_loader[m[K’ has not been declared
+[1.716s]   144 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[1.716s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.716s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:144:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[1.716s]   144 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[1.716s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.716s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:144:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.716s]   144 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[1.716s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.716s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type DiffDriveArduino::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.716s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:144:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.716s]   144 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[1.716s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.716s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:127:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.717s]   127 | [01;36m[K{[m[K
+[1.717s]       | [01;36m[K^[m[K
+[1.720s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/fake_robot.cpp:67:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+[1.720s]    67 | [01;31m[KCallbackReturn[m[K FakeRobot::on_activate(const rclcpp_lifecycle::State & /*previous_state*/)
+[1.720s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.721s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/fake_robot.cpp:74:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+[1.721s]    74 | [01;31m[KCallbackReturn[m[K FakeRobot::on_deactivate(const rclcpp_lifecycle::State & /*previous_state*/)
+[1.722s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.064s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[2.065s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[2.065s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[2.065s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/fake_robot.cpp:116[m[K:
+[2.065s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = FakeRobot; B = hardware_interface::SystemInterface][m[K’:
+[2.065s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[2.065s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KFakeRobot[m[K’
+[2.065s]   218 |     return [01;31m[Knew C[m[K;
+[2.065s]       |            [01;31m[K^~~~~[m[K
+[2.065s] In file included from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/fake_robot.cpp:1[m[K:
+[2.065s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:18:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KFakeRobot[m[K’:
+[2.065s]    18 | class [01;36m[KFakeRobot[m[K : public hardware_interface::SystemInterface
+[2.065s]       |       [01;36m[K^~~~~~~~~[m[K
+[2.065s] In file included from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:7[m[K,
+[2.065s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/fake_robot.cpp:1[m[K:
+[2.065s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:175:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[2.066s]   175 |   virtual return_type [01;36m[Kread[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[2.066s]       |                       [01;36m[K^~~~[m[K
+[2.066s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:186:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[2.066s]   186 |   virtual return_type [01;36m[Kwrite[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[2.066s]       |                       [01;36m[K^~~~~[m[K
+[2.096s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1
+[2.096s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[2.096s] gmake[1]: *** Waiting for unfinished jobs....
+[2.129s] gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1
+[2.129s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2
+[2.129s] gmake: *** [Makefile:146: all] Error 2
+[2.131s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_arduino -- -j8 -l8

@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[ 42%] Built target fake_robot
+[ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:12:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ArduinoComms::setup(const string&, int32_t, int32_t)[m[K’
+   12 | void [01;31m[KArduinoComms[m[K::setup(const std::string &serial_device, int32_t baud_rate, int32_t timeout_ms)
+      |      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:1[m[K:
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ArduinoComms::setup(const string&)[m[K’
+   22 |   void [01;36m[Ksetup[m[K(const std::string &serial_device);
+      |        [01;36m[K^~~~~[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ArduinoComms[m[K’ defined here
+    9 | class [01;36m[KArduinoComms[m[K
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

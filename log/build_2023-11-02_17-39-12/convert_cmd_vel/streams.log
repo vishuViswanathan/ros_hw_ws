@@ -1,0 +1,4 @@
+[0.475s] Invoking command in '/home/vishu/ros_hw_ws/build/convert_cmd_vel': PYTHONPATH=/home/vishu/ros_hw_ws/build/convert_cmd_vel/prefix_override:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vishu/ros_hw_ws/build/convert_cmd_vel/build --no-deps
+[0.643s] running develop
+[0.643s] error: error in setup.cfg: command 'install' has no such option 'install_cripts'
+[0.660s] Invoked command in '/home/vishu/ros_hw_ws/build/convert_cmd_vel' returned '1': PYTHONPATH=/home/vishu/ros_hw_ws/build/convert_cmd_vel/prefix_override:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vishu/ros_hw_ws/build/convert_cmd_vel/build --no-deps

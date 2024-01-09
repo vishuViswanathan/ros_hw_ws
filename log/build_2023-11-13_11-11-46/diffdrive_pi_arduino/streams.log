@@ -1,0 +1,36 @@
+[0.044s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[0.093s] [ 42%] Built target fake_robot
+[0.102s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[1.588s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:[m[K In member function ‘[01m[Kvoid ArduinoComms::setup(const string&, int32_t, int32_t)[m[K’:
+[1.588s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:12:28:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KArduinoComms::setup(const string&, int32_t, int32_t)::sockaddr_in server[m[K’ has incomplete type and cannot be defined
+[1.588s]    12 |         struct sockaddr_in [01;31m[Kserver[m[K;
+[1.588s]       |                            [01;31m[K^~~~~~[m[K
+[1.592s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:19:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinet_addr[m[K’ was not declared in this scope
+[1.592s]    19 |         server.sin_addr.s_addr = [01;31m[Kinet_addr[m[K(serial_device);
+[1.593s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[1.596s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:21:27:[m[K [01;31m[Kerror: [m[K‘[01m[Khtons[m[K’ was not declared in this scope
+[1.596s]    21 |         server.sin_port = [01;31m[Khtons[m[K( 8888 );
+[1.596s]       |                           [01;31m[K^~~~~[m[K
+[1.596s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:10:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbaud_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.596s]    10 | duinoComms::setup(const std::string &serial_device, [01;35m[Kint32_t baud_rate[m[K, int32_t timeout_ms)
+[1.596s]       |                                                     [01;35m[K~~~~~~~~^~~~~~~~~[m[K
+[1.596s] 
+[1.596s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:10:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout_ms[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.596s]    10 | onst std::string &serial_device, int32_t baud_rate, [01;35m[Kint32_t timeout_ms[m[K)
+[1.596s]       |                                                     [01;35m[K~~~~~~~~^~~~~~~~~~[m[K
+[1.596s] 
+[1.601s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:[m[K In member function ‘[01m[Kstd::string ArduinoComms::sendMsg(const string&, bool)[m[K’:
+[1.601s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:69:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[1.601s]    69 |         printf("messge to send <%s>", [01;31m[Kmessage[m[K.c_str());
+[1.601s]       |                                       [01;31m[K^~~~~~~[m[K
+[1.604s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:71:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[1.604s]    71 |     send(socket_desc , [01;31m[Kmessage[m[K.c_str() ,  message.length() , 0);
+[1.604s]       |                        [01;31m[K^~~~~~~[m[K
+[1.605s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:65:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg_to_send[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.605s]    65 | std::string ArduinoComms::sendMsg([01;35m[Kconst std::string &msg_to_send[m[K, bool print_output)
+[1.605s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[1.914s] gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o] Error 1
+[1.914s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+[1.914s] gmake: *** [Makefile:146: all] Error 2
+[1.916s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '2': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8

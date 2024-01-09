@@ -1,0 +1,80 @@
+[0.007s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/mv_ros_ws/install/urdf_tutorial:/home/vishu/mv_ros_ws/install/two_wheeled_robot:/home/vishu/mv_ros_ws/install/diffdrive_arduino:/home/vishu/mv_ros_ws/install/serial:/home/vishu/mv_ros_ws/install/rplidar_ros:/home/vishu/mv_ros_ws/install/ros2_mapping:/home/vishu/mv_ros_ws/install/mv_interfaces:/home/vishu/mv_ros_ws/install/fl_robot_py:/home/vishu/mv_ros_ws/install/box_bot_gazebo:/home/vishu/mv_ros_ws/install/box_bot_description:/home/vishu/mv_ros_ws/install/basic_mobile_robot:/home/vishu/mv_ros_ws/install/autonomous_navigation:/home/vishu/mv_ros_ws/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/vishu/ros_hw_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/vishu/ros_hw_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishu/ros_hw_ws/install/diffdrive_arduino
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.127s] -- Detecting C compiler ABI info - done
+[0.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.132s] -- Detecting C compile features
+[0.132s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.192s] -- Detecting CXX compile features
+[0.193s] -- Detecting CXX compile features - done
+[0.195s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.311s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.363s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.387s] -- Found serial: 1.2.1 (/home/vishu/ros_hw_ws/install/serial/share/serial/cmake)
+[0.389s] -- Found hardware_interface: 2.30.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.423s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.428s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.434s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.458s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.906s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.909s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.979s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.001s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.045s] -- Looking for pthread.h
+[1.093s] -- Looking for pthread.h - found
+[1.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.141s] -- Found Threads: TRUE  
+[1.245s] -- Found controller_manager: 2.30.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.070s] -- Configuring done
+[2.121s] -- Generating done
+[2.122s] -- Build files have been written to: /home/vishu/ros_hw_ws/build/diffdrive_arduino
+[2.130s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/mv_ros_ws/install/urdf_tutorial:/home/vishu/mv_ros_ws/install/two_wheeled_robot:/home/vishu/mv_ros_ws/install/diffdrive_arduino:/home/vishu/mv_ros_ws/install/serial:/home/vishu/mv_ros_ws/install/rplidar_ros:/home/vishu/mv_ros_ws/install/ros2_mapping:/home/vishu/mv_ros_ws/install/mv_interfaces:/home/vishu/mv_ros_ws/install/fl_robot_py:/home/vishu/mv_ros_ws/install/box_bot_gazebo:/home/vishu/mv_ros_ws/install/box_bot_description:/home/vishu/mv_ros_ws/install/basic_mobile_robot:/home/vishu/mv_ros_ws/install/autonomous_navigation:/home/vishu/mv_ros_ws/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/vishu/ros_hw_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/vishu/ros_hw_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishu/ros_hw_ws/install/diffdrive_arduino
+[2.131s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/mv_ros_ws/install/urdf_tutorial:/home/vishu/mv_ros_ws/install/two_wheeled_robot:/home/vishu/mv_ros_ws/install/diffdrive_arduino:/home/vishu/mv_ros_ws/install/serial:/home/vishu/mv_ros_ws/install/rplidar_ros:/home/vishu/mv_ros_ws/install/ros2_mapping:/home/vishu/mv_ros_ws/install/mv_interfaces:/home/vishu/mv_ros_ws/install/fl_robot_py:/home/vishu/mv_ros_ws/install/box_bot_gazebo:/home/vishu/mv_ros_ws/install/box_bot_description:/home/vishu/mv_ros_ws/install/basic_mobile_robot:/home/vishu/mv_ros_ws/install/autonomous_navigation:/home/vishu/mv_ros_ws/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/vishu/ros_hw_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_arduino -- -j8 -l8
+[2.167s] [ 14%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[2.167s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[2.167s] [ 42%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[2.167s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[2.167s] [ 71%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[4.849s] [ 85%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[4.859s] [100%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[5.017s] [100%] Built target fake_robot
+[5.017s] [100%] Built target diffdrive_arduino
+[5.025s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/mv_ros_ws/install/urdf_tutorial:/home/vishu/mv_ros_ws/install/two_wheeled_robot:/home/vishu/mv_ros_ws/install/diffdrive_arduino:/home/vishu/mv_ros_ws/install/serial:/home/vishu/mv_ros_ws/install/rplidar_ros:/home/vishu/mv_ros_ws/install/ros2_mapping:/home/vishu/mv_ros_ws/install/mv_interfaces:/home/vishu/mv_ros_ws/install/fl_robot_py:/home/vishu/mv_ros_ws/install/box_bot_gazebo:/home/vishu/mv_ros_ws/install/box_bot_description:/home/vishu/mv_ros_ws/install/basic_mobile_robot:/home/vishu/mv_ros_ws/install/autonomous_navigation:/home/vishu/mv_ros_ws/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/vishu/ros_hw_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_arduino -- -j8 -l8
+[5.047s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/mv_ros_ws/install/urdf_tutorial:/home/vishu/mv_ros_ws/install/two_wheeled_robot:/home/vishu/mv_ros_ws/install/diffdrive_arduino:/home/vishu/mv_ros_ws/install/serial:/home/vishu/mv_ros_ws/install/rplidar_ros:/home/vishu/mv_ros_ws/install/ros2_mapping:/home/vishu/mv_ros_ws/install/mv_interfaces:/home/vishu/mv_ros_ws/install/fl_robot_py:/home/vishu/mv_ros_ws/install/box_bot_gazebo:/home/vishu/mv_ros_ws/install/box_bot_description:/home/vishu/mv_ros_ws/install/basic_mobile_robot:/home/vishu/mv_ros_ws/install/autonomous_navigation:/home/vishu/mv_ros_ws/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/vishu/ros_hw_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/diffdrive_arduino
+[5.053s] -- Install configuration: ""
+[5.053s] -- Execute custom install script
+[5.053s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[5.059s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[5.066s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[5.073s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[5.079s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[5.086s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[5.092s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[5.099s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[5.106s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[5.113s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[5.120s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[5.126s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[5.132s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[5.138s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[5.144s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[5.150s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[5.156s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[5.163s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[5.169s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[5.175s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[5.181s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[5.187s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[5.193s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[5.198s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.204s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[5.209s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[5.215s] -- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[5.223s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/mv_ros_ws/install/urdf_tutorial:/home/vishu/mv_ros_ws/install/two_wheeled_robot:/home/vishu/mv_ros_ws/install/diffdrive_arduino:/home/vishu/mv_ros_ws/install/serial:/home/vishu/mv_ros_ws/install/rplidar_ros:/home/vishu/mv_ros_ws/install/ros2_mapping:/home/vishu/mv_ros_ws/install/mv_interfaces:/home/vishu/mv_ros_ws/install/fl_robot_py:/home/vishu/mv_ros_ws/install/box_bot_gazebo:/home/vishu/mv_ros_ws/install/box_bot_description:/home/vishu/mv_ros_ws/install/basic_mobile_robot:/home/vishu/mv_ros_ws/install/autonomous_navigation:/home/vishu/mv_ros_ws/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/vishu/ros_hw_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/diffdrive_arduino

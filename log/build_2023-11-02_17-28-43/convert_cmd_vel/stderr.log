@@ -1,0 +1,3 @@
+/home/vishu/.local/lib/python3.10/site-packages/setuptools/dist.py:722: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+error: package directory 'ros2_demo_py' does not exist

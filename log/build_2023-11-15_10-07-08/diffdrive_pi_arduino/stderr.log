@@ -1,0 +1,8 @@
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:[m[K In member function ‘[01m[Kbool ArduinoComms::waitForPi()[m[K’:
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:46:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrever_reply[m[K’ was not declared in this scope; did you mean ‘[01m[Kserver_reply[m[K’?
+   46 |             printf("FROM OI <%s>\n", [01;31m[Ksrever_reply[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~[m[K
+      |                                      [32m[Kserver_reply[m[K
+gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,28 @@
+[0.044s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[0.090s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[0.090s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[0.098s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_comms.cpp.o[0m
+[0.098s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o[0m
+[0.098s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/wheel.cpp.o[0m
+[0.101s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_comms.cpp: No such file or directory
+[0.101s] compilation terminated.
+[0.101s] gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_comms.cpp.o] Error 1
+[0.102s] gmake[2]: *** Waiting for unfinished jobs....
+[1.770s] In file included from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/diffdrive_pi_arduino.h:15[m[K,
+[1.770s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/diffdrive_pi_arduino.cpp:1[m[K:
+[1.770s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:[m[K In constructor ‘[01m[KArduinoComms::ArduinoComms(const string&, int32_t, int32_t)[m[K’:
+[1.770s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:19:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KArduinoComms[m[K’ does not have any field named ‘[01m[Kserial_conn_[m[K’
+[1.770s]    19 |       : [01;31m[Kserial_conn_[m[K(serial_device, baud_rate, serial::Timeout::simpleTimeout(timeout_ms))
+[1.770s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.787s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:[m[K In member function ‘[01m[Kbool ArduinoComms::connected() const[m[K’:
+[1.787s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:28:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_conn_[m[K’ was not declared in this scope
+[1.787s]    28 |   bool connected() const { return [01;31m[Kserial_conn_[m[K.isOpen(); }
+[1.787s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[2.215s] gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:76: CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o] Error 1
+[2.215s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+[2.215s] gmake[1]: *** Waiting for unfinished jobs....
+[2.480s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[2.595s] [ 85%] Built target fake_robot
+[2.596s] gmake: *** [Makefile:146: all] Error 2
+[2.597s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '2': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8

@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[ 42%] Built target fake_robot
+[ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:[m[K In member function ‘[01m[Kvoid ArduinoComms::setup(const string&)[m[K’:
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:27:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   27 |                 showMsg[34m[K([m[K("ERROR connect error $$$$$$")[01;31m[K;[m[K
+      |                        [34m[K~[m[K                              [01;31m[K^[m[K
+      |                                                       [32m[K)[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[KshowMs[m[K’ was not declared in this scope; did you mean ‘[01m[KshowMsg[m[K’?
+   31 |         [01;31m[KshowMs[m[K("$$$$$$$\n$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$\n Connected $$$$$$$");
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[KshowMsg[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:[m[K In member function ‘[01m[Kvoid ArduinoComms::showMsg(const string&)[m[K’:
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:40:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   40 |     printf(" MESSAGE  [01;35m[K%s[m[K", msg);
+      |                       [01;35m[K~^[m[K
+      |                        [01;35m[K|[m[K
+      |                        [01;35m[Kchar*[m[K
+gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

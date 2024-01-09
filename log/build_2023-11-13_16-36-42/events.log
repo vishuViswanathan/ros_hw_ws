@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000085] (-) JobUnselected: {'identifier': 'convert_cmd_vel'}
+[0.000120] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.000131] (-) JobUnselected: {'identifier': 'fl_robot_py'}
+[0.000142] (-) JobUnselected: {'identifier': 'serial'}
+[0.000160] (diffdrive_pi_arduino) JobQueued: {'identifier': 'diffdrive_pi_arduino', 'dependencies': OrderedDict([('serial', '/home/vishu/ros_hw_ws/install/serial')])}
+[0.000174] (diffdrive_pi_arduino) JobStarted: {'identifier': 'diffdrive_pi_arduino'}
+[0.041214] (diffdrive_pi_arduino) JobProgress: {'identifier': 'diffdrive_pi_arduino', 'progress': 'cmake'}
+[0.041329] (diffdrive_pi_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino'], 'cwd': '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vishu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/lib:/home/vishu/ros_hw_ws/install/diffdrive_arduino/lib:/home/vishu/ros_hw_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vishu'), ('OLDPWD', '/home/vishu'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3250'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vishu/ros_hw_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vishu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vishu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vishu/.local/bin:/home/vishu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vishu-Lenovo:@/tmp/.ICE-unix/3230,unix/vishu-Lenovo:/tmp/.ICE-unix/3230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e258b8c7_a632_449b_ab1f_0c145bd66d25'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vishu/ros_hw_ws/build/convert_cmd_vel:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble')]), 'shell': False}
+[0.099459] (-) TimerEvent: {}
+[0.177254] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199567] (-) TimerEvent: {}
+[0.218197] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.224580] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.280536] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.285141] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.285437] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.285828] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.288212] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299683] (-) TimerEvent: {}
+[0.341743] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.347698] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.347876] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.348052] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.350672] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399798] (-) TimerEvent: {}
+[0.471347] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.499913] (-) TimerEvent: {}
+[0.514522] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.541973] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/vishu/ros_hw_ws/install/serial/share/serial/cmake)\n'}
+[0.544593] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.32.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.581294] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.585260] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.592142] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.600087] (-) TimerEvent: {}
+[0.602643] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.616866] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700274] (-) TimerEvent: {}
+[0.800586] (-) TimerEvent: {}
+[0.900907] (-) TimerEvent: {}
+[1.001226] (-) TimerEvent: {}
+[1.051056] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.054657] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101422] (-) TimerEvent: {}
+[1.128082] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.150064] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.185613] (diffdrive_pi_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.193799] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201524] (-) TimerEvent: {}
+[1.241311] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.241475] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.290690] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.291279] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.301699] (-) TimerEvent: {}
+[1.393004] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Found controller_manager: 2.32.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.401871] (-) TimerEvent: {}
+[1.502198] (-) TimerEvent: {}
+[1.602561] (-) TimerEvent: {}
+[1.702813] (-) TimerEvent: {}
+[1.803144] (-) TimerEvent: {}
+[1.903386] (-) TimerEvent: {}
+[2.003712] (-) TimerEvent: {}
+[2.104037] (-) TimerEvent: {}
+[2.194012] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.204211] (-) TimerEvent: {}
+[2.223274] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[2.224356] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino\n'}
+[2.232451] (diffdrive_pi_arduino) CommandEnded: {'returncode': 0}
+[2.233609] (diffdrive_pi_arduino) JobProgress: {'identifier': 'diffdrive_pi_arduino', 'progress': 'build'}
+[2.233722] (diffdrive_pi_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino', '--', '-j8', '-l8'], 'cwd': '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vishu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/lib:/home/vishu/ros_hw_ws/install/diffdrive_arduino/lib:/home/vishu/ros_hw_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vishu'), ('OLDPWD', '/home/vishu'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3250'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vishu/ros_hw_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vishu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vishu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vishu/.local/bin:/home/vishu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vishu-Lenovo:@/tmp/.ICE-unix/3230,unix/vishu-Lenovo:/tmp/.ICE-unix/3230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e258b8c7_a632_449b_ab1f_0c145bd66d25'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vishu/ros_hw_ws/build/convert_cmd_vel:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble')]), 'shell': False}
+[2.269935] (diffdrive_pi_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[2.270139] (diffdrive_pi_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o\x1b[0m\n'}
+[2.270213] (diffdrive_pi_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[2.270701] (diffdrive_pi_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o\x1b[0m\n'}
+[2.270956] (diffdrive_pi_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o\x1b[0m\n'}
+[2.304326] (-) TimerEvent: {}
+[2.404663] (-) TimerEvent: {}
+[2.505037] (-) TimerEvent: {}
+[2.605386] (-) TimerEvent: {}
+[2.705735] (-) TimerEvent: {}
+[2.806094] (-) TimerEvent: {}
+[2.906442] (-) TimerEvent: {}
+[3.006841] (-) TimerEvent: {}
+[3.107194] (-) TimerEvent: {}
+[3.207554] (-) TimerEvent: {}
+[3.307917] (-) TimerEvent: {}
+[3.408278] (-) TimerEvent: {}
+[3.508638] (-) TimerEvent: {}
+[3.608993] (-) TimerEvent: {}
+[3.709373] (-) TimerEvent: {}
+[3.809748] (-) TimerEvent: {}
+[3.910126] (-) TimerEvent: {}
+[4.010510] (-) TimerEvent: {}
+[4.110898] (-) TimerEvent: {}
+[4.211270] (-) TimerEvent: {}
+[4.311662] (-) TimerEvent: {}
+[4.412020] (-) TimerEvent: {}
+[4.512363] (-) TimerEvent: {}
+[4.612680] (-) TimerEvent: {}
+[4.713006] (-) TimerEvent: {}
+[4.722274] (diffdrive_pi_arduino) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[4.800903] (diffdrive_pi_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_pi_arduino.so\x1b[0m\n'}
+[4.813122] (-) TimerEvent: {}
+[4.840317] (diffdrive_pi_arduino) StdoutLine: {'line': b'[100%] Built target fake_robot\n'}
+[4.913230] (-) TimerEvent: {}
+[4.913825] (diffdrive_pi_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_pi_arduino\n'}
+[4.921094] (diffdrive_pi_arduino) CommandEnded: {'returncode': 0}
+[4.943225] (diffdrive_pi_arduino) JobProgress: {'identifier': 'diffdrive_pi_arduino', 'progress': 'install'}
+[4.949593] (diffdrive_pi_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino'], 'cwd': '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vishu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/lib:/home/vishu/ros_hw_ws/install/diffdrive_arduino/lib:/home/vishu/ros_hw_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vishu'), ('OLDPWD', '/home/vishu'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3250'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vishu/ros_hw_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vishu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vishu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vishu/.local/bin:/home/vishu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vishu-Lenovo:@/tmp/.ICE-unix/3230,unix/vishu-Lenovo:/tmp/.ICE-unix/3230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e258b8c7_a632_449b_ab1f_0c145bd66d25'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vishu/ros_hw_ws/build/convert_cmd_vel:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble')]), 'shell': False}
+[4.954570] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.954889] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.955080] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino//robot_hardware.xml\n'}
+[4.961072] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino//fake_robot_hardware.xml\n'}
+[4.967810] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/lib/libdiffdrive_pi_arduino.so\n'}
+[4.974084] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/lib/libfake_robot.so\n'}
+[4.981849] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/controllers/robot_controller_example.yaml\n'}
+[4.988693] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/fake_robot.launch.py\n'}
+[4.993774] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/test_robot.launch.py\n'}
+[4.998745] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/library_path.sh\n'}
+[5.004657] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/library_path.dsv\n'}
+[5.009846] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_pi_arduino\n'}
+[5.013380] (-) TimerEvent: {}
+[5.015510] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_pi_arduino\n'}
+[5.020800] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/ament_prefix_path.sh\n'}
+[5.025945] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/ament_prefix_path.dsv\n'}
+[5.031258] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/path.sh\n'}
+[5.036324] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/environment/path.dsv\n'}
+[5.041697] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.bash\n'}
+[5.047745] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.sh\n'}
+[5.052902] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.zsh\n'}
+[5.058347] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/local_setup.dsv\n'}
+[5.063630] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/package.dsv\n'}
+[5.068719] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/packages/diffdrive_pi_arduino\n'}
+[5.073701] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_pi_arduino\n'}
+[5.079081] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.084261] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.089297] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/diffdrive_pi_arduinoConfig.cmake\n'}
+[5.094537] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/cmake/diffdrive_pi_arduinoConfig-version.cmake\n'}
+[5.099505] (diffdrive_pi_arduino) StdoutLine: {'line': b'-- Symlinking: /home/vishu/ros_hw_ws/install/diffdrive_pi_arduino/share/diffdrive_pi_arduino/package.xml\n'}
+[5.105603] (diffdrive_pi_arduino) CommandEnded: {'returncode': 0}
+[5.113513] (-) TimerEvent: {}
+[5.213928] (-) TimerEvent: {}
+[5.220098] (diffdrive_pi_arduino) JobEnded: {'identifier': 'diffdrive_pi_arduino', 'rc': 0}
+[5.220514] (-) EventReactorShutdown: {}

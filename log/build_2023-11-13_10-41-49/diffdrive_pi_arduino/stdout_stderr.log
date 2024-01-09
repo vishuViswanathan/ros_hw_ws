@@ -1,0 +1,40 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/wheel.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_comms.cpp.o[0m
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/wheel.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdiffdrive_arduino/wheel.h: No such file or directory
+    1 | #include [01;31m[K"diffdrive_arduino/wheel.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/wheel.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdiffdrive_arduino/wheel.h: No such file or directory
+    1 | #include [01;31m[K"diffdrive_arduino/wheel.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_comms.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:90: CMakeFiles/diffdrive_pi_arduino.dir/src/wheel.cpp.o] Error 1
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/fake_robot.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdiffdrive_arduino/fake_robot.h: No such file or directory
+    1 | #include [01;31m[K"diffdrive_arduino/fake_robot.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** Waiting for unfinished jobs....
+compilation terminated.
+gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:90: CMakeFiles/fake_robot.dir/src/wheel.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_comms.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/diffdrive_pi_arduino.h:15[m[K,
+                 from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/diffdrive_pi_arduino.cpp:1[m[K:
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:[m[K In constructor ‘[01m[KArduinoComms::ArduinoComms(const string&, int32_t, int32_t)[m[K’:
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:19:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KArduinoComms[m[K’ does not have any field named ‘[01m[Kserial_conn_[m[K’
+   19 |       : [01;31m[Kserial_conn_[m[K(serial_device, baud_rate, serial::Timeout::simpleTimeout(timeout_ms))
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:[m[K In member function ‘[01m[Kbool ArduinoComms::connected() const[m[K’:
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:28:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_conn_[m[K’ was not declared in this scope
+   28 |   bool connected() const { return [01;31m[Kserial_conn_[m[K.isOpen(); }
+      |                                   [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:76: CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

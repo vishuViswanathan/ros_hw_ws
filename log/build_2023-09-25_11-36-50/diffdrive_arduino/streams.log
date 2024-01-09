@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_arduino -- -j8 -l8
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[0.047s] [ 42%] Built target fake_robot
+[0.055s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[0.181s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:134:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #arduino_
+[0.182s]   134 | #  [01;31m[Karduino_[m[K.setMotorValues(l_wheel_.cmd / l_wheel_.rads_per_count / cfg_.loop_rate, r_wheel_.cmd / r_wheel_.rads_per_count / cfg_.loop_rate);
+[0.182s]       |    [01;31m[K^~~~~~~~[m[K
+[1.890s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1
+[1.890s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[1.890s] gmake: *** [Makefile:146: all] Error 2
+[1.892s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_arduino -- -j8 -l8

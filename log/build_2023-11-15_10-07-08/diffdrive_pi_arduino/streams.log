@@ -1,0 +1,12 @@
+[0.054s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8
+[0.093s] [ 42%] Built target fake_robot
+[0.093s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[1.714s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:[m[K In member function ‘[01m[Kbool ArduinoComms::waitForPi()[m[K’:
+[1.714s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:46:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrever_reply[m[K’ was not declared in this scope; did you mean ‘[01m[Kserver_reply[m[K’?
+[1.714s]    46 |             printf("FROM OI <%s>\n", [01;31m[Ksrever_reply[m[K);
+[1.714s]       |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[1.714s]       |                                      [32m[Kserver_reply[m[K
+[2.003s] gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o] Error 1
+[2.003s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+[2.003s] gmake: *** [Makefile:146: all] Error 2
+[2.004s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '2': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8

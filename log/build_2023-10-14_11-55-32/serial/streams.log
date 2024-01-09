@@ -1,0 +1,53 @@
+[0.082s] Invoking command in '/home/vishu/ros_hw_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/serial -- -j8 -l8
+[0.130s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.130s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.130s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.131s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.131s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.641s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[0.759s] [ 42%] Built target serial
+[0.774s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[0.871s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[0.914s] [ 57%] Built target gtest_main
+[0.999s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[1.068s] [ 64%] Built target serial_example
+[2.476s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[2.545s] [ 71%] Built target gtest
+[2.560s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[2.560s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[3.070s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[3.070s]                  from [01m[K/home/vishu/ros_hw_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[3.070s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[3.070s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[3.070s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.111s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[3.196s] [ 92%] Built target serial-test-timer
+[3.210s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[3.307s] [100%] Built target serial-test
+[3.314s] Invoked command in '/home/vishu/ros_hw_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/serial -- -j8 -l8
+[3.337s] Invoking command in '/home/vishu/ros_hw_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/serial
+[3.342s] -- Install configuration: ""
+[3.342s] -- Execute custom install script
+[3.343s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/lib/libserial.a
+[3.343s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/include/serial/serial.h
+[3.343s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/include/serial/v8stdint.h
+[3.343s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/environment/library_path.sh
+[3.343s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/environment/library_path.dsv
+[3.343s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.343s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.343s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.344s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.344s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/environment/path.sh
+[3.344s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/environment/path.dsv
+[3.344s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/local_setup.bash
+[3.344s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/local_setup.sh
+[3.344s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/local_setup.zsh
+[3.344s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/local_setup.dsv
+[3.344s] -- Symlinking: /home/vishu/ros_hw_ws/install/serial/share/serial/package.dsv
+[3.350s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/ament_index/resource_index/packages/serial
+[3.351s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.351s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.351s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[3.351s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.351s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/serial/share/serial/package.xml
+[3.353s] Invoked command in '/home/vishu/ros_hw_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/serial

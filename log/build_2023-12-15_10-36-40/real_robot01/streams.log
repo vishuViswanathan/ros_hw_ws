@@ -1,0 +1,57 @@
+[0.041s] Invoking command in '/home/vishu/ros_hw_ws/build/real_robot01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake /home/vishu/ros_hw_ws/src/real_robot01 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishu/ros_hw_ws/install/real_robot01
+[0.133s] -- The C compiler identification is GNU 11.4.0
+[0.215s] -- The CXX compiler identification is GNU 11.4.0
+[0.221s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.276s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.276s] -- Detecting C compile features
+[0.276s] -- Detecting C compile features - done
+[0.280s] -- Detecting CXX compiler ABI info
+[0.341s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.350s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.512s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.540s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.575s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.579s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.586s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.661s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.664s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.732s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.754s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.793s] -- Looking for pthread.h
+[0.847s] -- Looking for pthread.h - found
+[0.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.901s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.901s] -- Found Threads: TRUE  
+[1.020s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.022s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.081s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.081s] -- Added test 'lint_cmake' to check CMake code style
+[1.081s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.082s] -- Added test 'xmllint' to check XML markup files
+[1.083s] -- Configuring done
+[1.086s] -- Generating done
+[1.087s] -- Build files have been written to: /home/vishu/ros_hw_ws/build/real_robot01
+[1.093s] Invoked command in '/home/vishu/ros_hw_ws/build/real_robot01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake /home/vishu/ros_hw_ws/src/real_robot01 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishu/ros_hw_ws/install/real_robot01
+[1.094s] Invoking command in '/home/vishu/ros_hw_ws/build/real_robot01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/real_robot01 -- -j8 -l8
+[1.122s] Invoked command in '/home/vishu/ros_hw_ws/build/real_robot01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/real_robot01 -- -j8 -l8
+[1.161s] Invoking command in '/home/vishu/ros_hw_ws/build/real_robot01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/real_robot01
+[1.168s] -- Install configuration: ""
+[1.169s] -- Execute custom install script
+[1.170s] -- Symlinking: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//launch/launch_robot01.launch.py
+[1.179s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[1.179s]   ament_cmake_symlink_install_directory() can't find
+[1.179s]   '/home/vishu/ros_hw_ws/src/real_robot01/rviz'
+[1.179s] Call Stack (most recent call first):
+[1.179s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[1.179s]   cmake_install.cmake:46 (include)
+[1.179s] 
+[1.179s] [0m
+[1.180s] Invoked command in '/home/vishu/ros_hw_ws/build/real_robot01' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/real_robot01

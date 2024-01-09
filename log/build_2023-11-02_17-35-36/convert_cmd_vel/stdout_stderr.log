@@ -1,0 +1,12 @@
+/home/vishu/.local/lib/python3.10/site-packages/setuptools/dist.py:722: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+running egg_info
+creating convert_cmd_vel.egg-info
+writing convert_cmd_vel.egg-info/PKG-INFO
+writing dependency_links to convert_cmd_vel.egg-info/dependency_links.txt
+writing entry points to convert_cmd_vel.egg-info/entry_points.txt
+writing requirements to convert_cmd_vel.egg-info/requires.txt
+writing top-level names to convert_cmd_vel.egg-info/top_level.txt
+writing manifest file 'convert_cmd_vel.egg-info/SOURCES.txt'
+error: package directory 'convert_cmd_vel' does not exist

@@ -1,0 +1,15 @@
+[0.042s] Invoking command in '/home/vishu/ros_hw_ws/build/real_robot01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/real_robot01 -- -j8 -l8
+[0.067s] Invoked command in '/home/vishu/ros_hw_ws/build/real_robot01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/real_robot01 -- -j8 -l8
+[0.091s] Invoking command in '/home/vishu/ros_hw_ws/build/real_robot01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/real_robot01
+[0.095s] -- Install configuration: ""
+[0.096s] -- Execute custom install script
+[0.096s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//launch/launch_robot01.launch.py
+[0.096s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.096s]   ament_cmake_symlink_install_directory() can't find
+[0.096s]   '/home/vishu/ros_hw_ws/src/real_robot01/config'
+[0.096s] Call Stack (most recent call first):
+[0.097s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.097s]   cmake_install.cmake:46 (include)
+[0.097s] 
+[0.097s] [0m
+[0.098s] Invoked command in '/home/vishu/ros_hw_ws/build/real_robot01' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/real_robot01

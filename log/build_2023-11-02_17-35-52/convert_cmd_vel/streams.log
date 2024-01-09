@@ -1,0 +1,12 @@
+[0.490s] Invoking command in '/home/vishu/ros_hw_ws/build/convert_cmd_vel': PYTHONPATH=/home/vishu/ros_hw_ws/build/convert_cmd_vel/prefix_override:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vishu/ros_hw_ws/build/convert_cmd_vel/build --no-deps
+[0.646s] /home/vishu/.local/lib/python3.10/site-packages/setuptools/dist.py:722: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.646s]   warnings.warn(
+[0.673s] running develop
+[0.774s] running egg_info
+[0.774s] writing convert_cmd_vel.egg-info/PKG-INFO
+[0.774s] writing dependency_links to convert_cmd_vel.egg-info/dependency_links.txt
+[0.775s] writing entry points to convert_cmd_vel.egg-info/entry_points.txt
+[0.775s] writing requirements to convert_cmd_vel.egg-info/requires.txt
+[0.775s] writing top-level names to convert_cmd_vel.egg-info/top_level.txt
+[0.775s] error: package directory 'convert_cmd_vel' does not exist
+[0.796s] Invoked command in '/home/vishu/ros_hw_ws/build/convert_cmd_vel' returned '1': PYTHONPATH=/home/vishu/ros_hw_ws/build/convert_cmd_vel/prefix_override:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vishu/ros_hw_ws/build/convert_cmd_vel/build --no-deps

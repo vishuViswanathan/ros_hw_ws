@@ -1,0 +1,13 @@
+[0.043s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[0.084s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o[0m
+[0.084s] [ 57%] Built target fake_robot
+[0.090s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/diffdrive_pi_arduino.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdiffdrive_pi_arduino/diffdrive_pi_arduino.h: No such file or directory
+[0.090s]     1 | #include [01;31m[K"diffdrive_pi_arduino/diffdrive_pi_arduino.h"[m[K
+[0.090s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.090s] compilation terminated.
+[0.090s] gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:76: CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o] Error 1
+[0.090s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+[0.090s] gmake: *** [Makefile:146: all] Error 2
+[0.092s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '2': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8

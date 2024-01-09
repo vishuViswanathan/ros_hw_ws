@@ -1,0 +1,36 @@
+[0.042s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake /home/vishu/ros_hw_ws/src/diffdrive_pi_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino
+[0.050s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.138s] -- Found serial: 1.2.1 (/home/vishu/ros_hw_ws/install/serial/share/serial/cmake)
+[0.139s] -- Found hardware_interface: 2.32.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.155s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.157s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.160s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.558s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.559s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.730s] -- Found controller_manager: 2.32.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.495s] -- Configuring done
+[1.553s] -- Generating done
+[1.554s] -- Build files have been written to: /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino
+[1.561s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '0': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake /home/vishu/ros_hw_ws/src/diffdrive_pi_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino
+[1.562s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8
+[1.596s] [ 42%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[1.596s] [ 42%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[1.596s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/wheel.cpp.o[0m
+[1.597s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o[0m
+[1.597s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_comms.cpp.o[0m
+[1.605s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/diffdrive_pi_arduino.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdiffdrive__pi_arduino/diffdrive_pi_arduino.h: No such file or directory
+[1.605s]     1 | #include [01;31m[K"diffdrive__pi_arduino/diffdrive_pi_arduino.h"[m[K
+[1.605s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.605s] compilation terminated.
+[1.605s] gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:76: CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o] Error 1
+[1.605s] gmake[2]: *** Waiting for unfinished jobs....
+[3.458s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+[3.458s] gmake[1]: *** Waiting for unfinished jobs....
+[3.843s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[3.974s] [ 85%] Built target fake_robot
+[3.975s] gmake: *** [Makefile:146: all] Error 2
+[3.977s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '2': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8

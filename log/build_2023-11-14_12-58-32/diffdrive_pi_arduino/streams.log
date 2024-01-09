@@ -1,0 +1,20 @@
+[0.044s] Invoking command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[0.083s] [ 42%] Built target fake_robot
+[0.089s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o[0m
+[0.089s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[0.356s] In file included from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:1[m[K:
+[0.356s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:32:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KArduinoComms::[m[K’ on member ‘[01m[KwaitForPi[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.356s]    32 |   bool [01;31m[KArduinoComms[m[K::waitForPi();
+[0.356s]       |        [01;31m[K^~~~~~~~~~~~[m[K
+[1.797s] In file included from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/diffdrive_pi_arduino.h:15[m[K,
+[1.797s]                  from [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/diffdrive_pi_arduino.cpp:1[m[K:
+[1.797s] [01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/include/diffdrive_pi_arduino/arduino_pi_comms.h:32:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KArduinoComms::[m[K’ on member ‘[01m[KwaitForPi[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.797s]    32 |   bool [01;31m[KArduinoComms[m[K::waitForPi();
+[1.797s]       |        [01;31m[K^~~~~~~~~~~~[m[K
+[2.095s] gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o] Error 1
+[2.095s] gmake[2]: *** Waiting for unfinished jobs....
+[2.233s] gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:76: CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o] Error 1
+[2.234s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+[2.234s] gmake: *** [Makefile:146: all] Error 2
+[2.236s] Invoked command in '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino' returned '2': CMAKE_PREFIX_PATH=/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_pi_arduino:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/diffdrive_pi_arduino -- -j8 -l8

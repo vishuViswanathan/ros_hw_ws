@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000215] (-) JobUnselected: {'identifier': 'convert_cmd_vel'}
+[0.000238] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.000250] (-) JobUnselected: {'identifier': 'fl_robot_py'}
+[0.000260] (-) JobUnselected: {'identifier': 'serial'}
+[0.000271] (diffdrive_pi_arduino) JobQueued: {'identifier': 'diffdrive_pi_arduino', 'dependencies': OrderedDict([('serial', '/home/vishu/ros_hw_ws/install/serial')])}
+[0.000286] (diffdrive_pi_arduino) JobStarted: {'identifier': 'diffdrive_pi_arduino'}
+[0.041954] (diffdrive_pi_arduino) JobProgress: {'identifier': 'diffdrive_pi_arduino', 'progress': 'cmake'}
+[0.042238] (diffdrive_pi_arduino) JobProgress: {'identifier': 'diffdrive_pi_arduino', 'progress': 'build'}
+[0.042736] (diffdrive_pi_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino', '--', '-j8', '-l8'], 'cwd': '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vishu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_arduino/lib:/home/vishu/ros_hw_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vishu'), ('OLDPWD', '/home/vishu'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vishu/ros_hw_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vishu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vishu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vishu/.local/bin:/home/vishu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vishu-Lenovo:@/tmp/.ICE-unix/2208,unix/vishu-Lenovo:/tmp/.ICE-unix/2208'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/031347b9_4002_4045_9873_cd75c885bdac'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.200'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vishu/ros_hw_ws/build/diffdrive_pi_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vishu/ros_hw_ws/build/convert_cmd_vel:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vishu/ros_hw_ws/install/serial:/home/vishu/ros_hw_ws/install/diffdrive_arduino:/home/vishu/ros_hw_ws/install/fl_robot_py:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble')]), 'shell': False}
+[0.084430] (diffdrive_pi_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino\x1b[0m\n'}
+[0.093148] (diffdrive_pi_arduino) StdoutLine: {'line': b'[ 42%] Built target fake_robot\n'}
+[0.099494] (-) TimerEvent: {}
+[0.102203] (diffdrive_pi_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o\x1b[0m\n'}
+[0.199589] (-) TimerEvent: {}
+[0.299897] (-) TimerEvent: {}
+[0.400262] (-) TimerEvent: {}
+[0.500562] (-) TimerEvent: {}
+[0.600910] (-) TimerEvent: {}
+[0.701264] (-) TimerEvent: {}
+[0.801634] (-) TimerEvent: {}
+[0.902009] (-) TimerEvent: {}
+[1.002312] (-) TimerEvent: {}
+[1.102607] (-) TimerEvent: {}
+[1.202903] (-) TimerEvent: {}
+[1.303199] (-) TimerEvent: {}
+[1.403505] (-) TimerEvent: {}
+[1.503810] (-) TimerEvent: {}
+[1.588179] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArduinoComms::setup(const string&, int32_t, int32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.588362] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:12:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kaggregate \xe2\x80\x98\x1b[01m\x1b[KArduinoComms::setup(const string&, int32_t, int32_t)::sockaddr_in server\x1b[m\x1b[K\xe2\x80\x99 has incomplete type and cannot be defined\n'}
+[1.588421] (diffdrive_pi_arduino) StderrLine: {'line': b'   12 |         struct sockaddr_in \x1b[01;31m\x1b[Kserver\x1b[m\x1b[K;\n'}
+[1.588467] (diffdrive_pi_arduino) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.592624] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:19:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinet_addr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.592721] (diffdrive_pi_arduino) StderrLine: {'line': b'   19 |         server.sin_addr.s_addr = \x1b[01;31m\x1b[Kinet_addr\x1b[m\x1b[K(serial_device);\n'}
+[1.592771] (diffdrive_pi_arduino) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.595970] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:21:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khtons\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.596128] (diffdrive_pi_arduino) StderrLine: {'line': b'   21 |         server.sin_port = \x1b[01;31m\x1b[Khtons\x1b[m\x1b[K( 8888 );\n'}
+[1.596170] (diffdrive_pi_arduino) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.596208] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:10:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbaud_rate\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.596246] (diffdrive_pi_arduino) StderrLine: {'line': b'   10 | duinoComms::setup(const std::string &serial_device, \x1b[01;35m\x1b[Kint32_t baud_rate\x1b[m\x1b[K, int32_t timeout_ms)\n'}
+[1.596283] (diffdrive_pi_arduino) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.596318] (diffdrive_pi_arduino) StderrLine: {'line': b'\n'}
+[1.596353] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:10:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout_ms\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.596390] (diffdrive_pi_arduino) StderrLine: {'line': b'   10 | onst std::string &serial_device, int32_t baud_rate, \x1b[01;35m\x1b[Kint32_t timeout_ms\x1b[m\x1b[K)\n'}
+[1.596426] (diffdrive_pi_arduino) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.596459] (diffdrive_pi_arduino) StderrLine: {'line': b'\n'}
+[1.601154] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string ArduinoComms::sendMsg(const string&, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.601247] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:69:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.601290] (diffdrive_pi_arduino) StderrLine: {'line': b'   69 |         printf("messge to send <%s>", \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.c_str());\n'}
+[1.601328] (diffdrive_pi_arduino) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.603886] (-) TimerEvent: {}
+[1.604459] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:71:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.604535] (diffdrive_pi_arduino) StderrLine: {'line': b'   71 |     send(socket_desc , \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.c_str() ,  message.length() , 0);\n'}
+[1.604577] (diffdrive_pi_arduino) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.605053] (diffdrive_pi_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:65:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg_to_send\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.605169] (diffdrive_pi_arduino) StderrLine: {'line': b'   65 | std::string ArduinoComms::sendMsg(\x1b[01;35m\x1b[Kconst std::string &msg_to_send\x1b[m\x1b[K, bool print_output)\n'}
+[1.605218] (diffdrive_pi_arduino) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.704013] (-) TimerEvent: {}
+[1.804309] (-) TimerEvent: {}
+[1.904620] (-) TimerEvent: {}
+[1.914129] (diffdrive_pi_arduino) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o] Error 1\n'}
+[1.914271] (diffdrive_pi_arduino) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2\n'}
+[1.914361] (diffdrive_pi_arduino) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.916580] (diffdrive_pi_arduino) CommandEnded: {'returncode': 2}
+[1.970930] (diffdrive_pi_arduino) JobEnded: {'identifier': 'diffdrive_pi_arduino', 'rc': 2}
+[1.981305] (-) EventReactorShutdown: {}

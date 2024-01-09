@@ -1,0 +1,26 @@
+[0.041s] Invoking command in '/home/vishu/ros_hw_ws/build/real_robot01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/real_robot01 -- -j8 -l8
+[0.066s] Invoked command in '/home/vishu/ros_hw_ws/build/real_robot01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --build /home/vishu/ros_hw_ws/build/real_robot01 -- -j8 -l8
+[0.088s] Invoking command in '/home/vishu/ros_hw_ws/build/real_robot01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/real_robot01
+[0.094s] -- Install configuration: ""
+[0.095s] -- Execute custom install script
+[0.095s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//launch/launch_robot01.launch.py
+[0.095s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//launch/rsp_no_pub.launch.py
+[0.095s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//urdf/robot.urdf.xacro
+[0.096s] -- Symlinking: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//maps/F19.pgm
+[0.101s] -- Symlinking: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01//maps/f19.yaml
+[0.109s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/ament_index/resource_index/package_run_dependencies/real_robot01
+[0.109s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/ament_index/resource_index/parent_prefix_path/real_robot01
+[0.109s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/environment/ament_prefix_path.sh
+[0.109s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/environment/ament_prefix_path.dsv
+[0.109s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/environment/path.sh
+[0.109s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/environment/path.dsv
+[0.109s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/local_setup.bash
+[0.109s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/local_setup.sh
+[0.109s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/local_setup.zsh
+[0.110s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/local_setup.dsv
+[0.110s] -- Symlinking: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/package.dsv
+[0.117s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/ament_index/resource_index/packages/real_robot01
+[0.117s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/cmake/real_robot01Config.cmake
+[0.117s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/cmake/real_robot01Config-version.cmake
+[0.117s] -- Up-to-date symlink: /home/vishu/ros_hw_ws/install/real_robot01/share/real_robot01/package.xml
+[0.118s] Invoked command in '/home/vishu/ros_hw_ws/build/real_robot01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishu/ros_hw_ws/install/convert_cmd_vel:/opt/ros/humble /usr/bin/cmake --install /home/vishu/ros_hw_ws/build/real_robot01

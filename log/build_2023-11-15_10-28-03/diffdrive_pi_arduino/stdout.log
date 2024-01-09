@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[ 42%] Built target fake_robot
+[ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/diffdrive_pi_arduino.cpp.o[0m

@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_pi_arduino[0m
+[ 42%] Built target fake_robot
+[ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o[0m
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:49:34:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   49 |             RCLCPP_INFO(logger_, [01;35m[K"[m[Kserver_reply);
+      |                                  [01;35m[K^[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:117:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+  117 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:[m[K In member function ‘[01m[Kbool ArduinoComms::waitForPi()[m[K’:
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:49:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   49 |             [01;31m[KRCLCPP_INFO[m[K(logger_, "server_reply);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:49:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   49 |             RCLCPP_INFO[01;31m[K([m[Klogger_, "server_reply);
+      |                        [01;31m[K^[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:46:28:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   46 |                 if (n > 0) [01;36m[K{[m[K
+      |                            [01;36m[K^[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:49:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   49 |             RCLCPP_INFO[01;31m[K([m[Klogger_, "server_reply);
+      |                        [01;31m[K^[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:44:24:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   44 |         while (!ready) [01;36m[K{[m[K
+      |                        [01;36m[K^[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:49:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   49 |             RCLCPP_INFO[01;31m[K([m[Klogger_, "server_reply);
+      |                        [01;31m[K^[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:40:32:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   40 | bool ArduinoComms::waitForPi() [01;36m[K{[m[K
+      |                                [01;36m[K^[m[K
+[01m[K/home/vishu/ros_hw_ws/src/diffdrive_pi_arduino/src/arduino_pi_comms.cpp:49:24:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   49 |             RCLCPP_INFO[01;35m[K([m[Klogger_, "server_reply);
+      |                        [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/diffdrive_pi_arduino.dir/build.make:104: CMakeFiles/diffdrive_pi_arduino.dir/src/arduino_pi_comms.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_pi_arduino.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

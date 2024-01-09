@@ -1,0 +1,16 @@
+[0.493s] Invoking command in '/home/vishu/ros_hw_ws/build/convert_cmd_vel': PYTHONPATH=/home/vishu/ros_hw_ws/build/convert_cmd_vel/prefix_override:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vishu/ros_hw_ws/build/convert_cmd_vel/build --no-deps
+[0.661s] running develop
+[0.766s] running egg_info
+[0.766s] writing convert_cmd_vel.egg-info/PKG-INFO
+[0.766s] writing dependency_links to convert_cmd_vel.egg-info/dependency_links.txt
+[0.766s] writing entry points to convert_cmd_vel.egg-info/entry_points.txt
+[0.766s] writing requirements to convert_cmd_vel.egg-info/requires.txt
+[0.766s] writing top-level names to convert_cmd_vel.egg-info/top_level.txt
+[0.767s] reading manifest file 'convert_cmd_vel.egg-info/SOURCES.txt'
+[0.768s] writing manifest file 'convert_cmd_vel.egg-info/SOURCES.txt'
+[0.769s] running build_ext
+[0.769s] Creating /home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages/convert-cmd-vel.egg-link (link to .)
+[0.769s] Installing convert_cmd_vel script to /home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/convert_cmd_vel
+[0.769s] 
+[0.769s] Installed /home/vishu/ros_hw_ws/build/convert_cmd_vel
+[0.789s] Invoked command in '/home/vishu/ros_hw_ws/build/convert_cmd_vel' returned '0': PYTHONPATH=/home/vishu/ros_hw_ws/build/convert_cmd_vel/prefix_override:/home/vishu/ros_hw_ws/install/convert_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vishu/ros_hw_ws/build/convert_cmd_vel/build --no-deps

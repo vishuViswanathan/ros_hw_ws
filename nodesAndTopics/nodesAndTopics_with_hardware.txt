@@ -1,0 +1,34 @@
+ishu@vishu-Lenovo:~/ros_hw_ws$ ros2 node list
+/controller_manager
+/diff_cont
+/joint_broad
+/robot_state_publisher
+/rviz
+/rviz2
+/teleop_twist_keyboard
+/transform_listener_impl_559766e1be70
+/transform_listener_impl_5612e3973620
+
+
+vishu@vishu-Lenovo:~/ros_hw_ws$ ros2 topic list
+/clicked_point
+/diff_cont/cmd_vel_unstamped
+/diff_cont/odom
+/diff_cont/transition_event
+/dynamic_joint_states
+/global_costmap/costmap
+/global_costmap/costmap_updates
+/goal_pose
+/initialpose
+/joint_broad/transition_event
+/joint_states
+/local_plan
+/parameter_events
+/robot_description
+/rosout
+/scan
+/slam_toolbox/scan_visualization
+/tf
+/tf_static
+
+

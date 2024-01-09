@@ -1,0 +1,2 @@
+running develop
+error: error in setup.cfg: command 'install' has no such option 'install_cripts'
