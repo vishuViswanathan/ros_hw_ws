@@ -1,0 +1,33 @@
+<launch>
+ 
+  <!--Robot Description from URDF-->
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find mv_fl_robot)/urdf/fl_robot.xacro"/>  
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+
+  <!--RViz-->
+  <node name="rviz" pkg="rviz" type="rviz" required="true"/>
+  
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="debug" value="false" />
+    <arg name="gui" value="true" />
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="verbose" value="true"/>
+
+    <arg name="world_name" value="$(find mv_fl_robot)/worlds/closed_room_short.world"/>
+
+  </include>
+  <!--Map Server  <node pkg="map_server" type="map_server" name="map_server" 
+    args="$(find mv_fl_robot)/maps/open_room_map.yaml"/>
+    -->
+
+   <!--Launch Gazebo Simulator  NOTE:"-verbose" removed from args-->
+  <node name="spawn_model" pkg="gazebo_ros" type="spawn_model" args="-urdf -param robot_description -model fl_robot " output="screen"/>
+
+ 
+
+</launch>

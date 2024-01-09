@@ -1,0 +1,11 @@
+joint_state_controller:
+  type: "joint_state_controller/JointStateController"
+  publish_rate: 50
+
+right_wheel_controller:
+  type: "velocity_controllers/JointVelocityController"
+  joint: drivewhl_r_joint
+
+left_wheel_controller:
+  type: "velocity_controllers/JointVelocityController"
+  joint: drivewhl_l_joint
