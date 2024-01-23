@@ -45,7 +45,7 @@ private:
 
   Config cfg_;
   ArduinoComms arduino_;
-  bool firstTime = true;
+  // bool firstTime = true;
 
   Wheel l_wheel_;
   Wheel r_wheel_;

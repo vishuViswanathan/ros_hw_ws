@@ -77,6 +77,9 @@ hardware_interface::CallbackReturn DiffDriveArduino::on_activate(const rclcpp_li
   // arduino.setPidValues(9,7,0,100);
   // arduino.setPidValues(14,7,0,100);
   // arduino_.setPidValues(30, 20, 0, 100);
+  
+  arduino_.resetEncoder();
+  
   return CallbackReturn::SUCCESS;
 }
 
@@ -135,15 +138,15 @@ hardware_interface::return_type DiffDriveArduino::write(
 
 //  arduino_.setMotorValues(l_wheel_.cmd / l_wheel_.rads_per_count / cfg_.loop_rate, r_wheel_.cmd / r_wheel_.rads_per_count / cfg_.loop_rate);
   arduino_.setMotorValues(l_wheel_.cmd /l_wheel_.rads_per_count, r_wheel_.cmd / r_wheel_.rads_per_count);
-     RCLCPP_INFO
-       (rclcpp::get_logger("DiffBotSystemHardware"),
-       "WRITING l_wheel_.cmd '%7.3f', r_wheel_.cmd '%7.3f'.", 
-        l_wheel_.cmd, r_wheel_.cmd);
+    //  RCLCPP_INFO
+    //    (rclcpp::get_logger("DiffBotSystemHardware"),
+    //    "WRITING l_wheel_.cmd '%7.3f', r_wheel_.cmd '%7.3f'.", 
+    //     l_wheel_.cmd, r_wheel_.cmd);
 
-  if (firstTime){
-    arduino_.resetEncoder();
-    firstTime = false;
-  }
+  // if (firstTime){
+  //   arduino_.resetEncoder();
+  //   firstTime = false;
+  // }
 
   return return_type::OK;
   
